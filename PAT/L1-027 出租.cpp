@@ -1,39 +1,33 @@
 #include<iostream>
 #include<cstring>
+#include<sstream>
 
 using namespace std;
 
 string temp;
 
-void quicksort(int left,int right)
+//快排模板
+void quick_sort(int l,int r)
 {
-	if(left > right)
+	int x = temp[(l + r) / 2], i = l - 1, j = r + 1; //x取值是任意的，也可以选择中点。i，j指向真正的边界 
+	if(l >= r) return;
+	while(i < j)
 	{
-		return;
-	}
-	char t = temp[left];
-	cout << t << endl;
-	int x = left;
-	int y = right;
-	while(x != y)
-	{
-		while(temp[y] <= t && x < y) y--;
-		while(temp[x] >= t && x < y) x++;
-		if(x < y)
-		{
-			t = temp[x];
-			temp[x] = temp[y];
-			temp[y] = t;
-		}
-	}
-	temp[left] = temp[x];
-	temp[x] = t;
-	
-	cout << temp[x] << endl;
-	puts("");
-	
-	quicksort(left,x-1);
-	quicksort(x+1,right);
+		do i++; while(temp[i] > x);
+		do j--; while(temp[j] < x);
+		if(i < j) swap(temp[i],temp[j]);
+	 } 
+	 
+	 quick_sort(l,j);
+	 quick_sort(j + 1,r);
+}
+
+string to_string(int j)
+{
+	stringstream ss;
+	ss << j;
+	string s = ss.str();
+	return s.c_str();
 }
 
 int main()
@@ -43,7 +37,7 @@ int main()
 	string s;
 	
 	cin >> s;
-	for(int i = 0; i < s.size(); i++)
+	for(unsigned int i = 0; i < s.size(); i++)
 	{
 		
 		if(temp.find(s[i]) == string::npos) 
@@ -51,8 +45,31 @@ int main()
 			temp += s[i];
 		}
 	}
-	cout << temp << endl;
-	quicksort(0,temp.size() - 1);
-	cout << temp;
+	quick_sort(0,temp.size() - 1);
+	for(unsigned int i = 0; i < temp.size() - 1; i++)
+	{
+		s1 = s1 + temp[i] + ',';
+	}
+	s1 = s1 + temp[temp.size() - 1] + "};";
+	cout << s1 << endl;
+	
+	for(unsigned int i = 0; i < s.size(); i++)
+	{
+		for(unsigned int j = 0; j < temp.size(); j++)
+		{
+			if(s[i] == temp[j] && i != s.size() - 1) 
+			{
+				string k = to_string(j);
+				s2 = s2 + k + ",";
+			}
+			
+			if(s[i] == temp[j] && i == s.size() - 1) 
+			{
+				string k = to_string(j);
+				s2 = s2 + k + "};";
+			}
+		}
+	}
+	cout << s2;
 	return 0;
 }
