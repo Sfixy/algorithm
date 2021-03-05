@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Leetcode", "Leetcode", "{07
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "0007整数反转", "0007整数反转\0007整数反转.vcxproj", "{897D7A64-6AF2-4503-9C3E-31E5B0DCCAAB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "0001两数之和", "0001两数之和\0001两数之和.vcxproj", "{D16C8329-57E6-43FD-BFC3-718BA3C8B9A0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "0002两数相加", "0002两数相加\0002两数相加.vcxproj", "{3DC407C3-AC66-4CEF-8E5A-4E48B2CE3C14}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -23,12 +27,30 @@ Global
 		{897D7A64-6AF2-4503-9C3E-31E5B0DCCAAB}.Release|x64.Build.0 = Release|x64
 		{897D7A64-6AF2-4503-9C3E-31E5B0DCCAAB}.Release|x86.ActiveCfg = Release|Win32
 		{897D7A64-6AF2-4503-9C3E-31E5B0DCCAAB}.Release|x86.Build.0 = Release|Win32
+		{D16C8329-57E6-43FD-BFC3-718BA3C8B9A0}.Debug|x64.ActiveCfg = Debug|x64
+		{D16C8329-57E6-43FD-BFC3-718BA3C8B9A0}.Debug|x64.Build.0 = Debug|x64
+		{D16C8329-57E6-43FD-BFC3-718BA3C8B9A0}.Debug|x86.ActiveCfg = Debug|Win32
+		{D16C8329-57E6-43FD-BFC3-718BA3C8B9A0}.Debug|x86.Build.0 = Debug|Win32
+		{D16C8329-57E6-43FD-BFC3-718BA3C8B9A0}.Release|x64.ActiveCfg = Release|x64
+		{D16C8329-57E6-43FD-BFC3-718BA3C8B9A0}.Release|x64.Build.0 = Release|x64
+		{D16C8329-57E6-43FD-BFC3-718BA3C8B9A0}.Release|x86.ActiveCfg = Release|Win32
+		{D16C8329-57E6-43FD-BFC3-718BA3C8B9A0}.Release|x86.Build.0 = Release|Win32
+		{3DC407C3-AC66-4CEF-8E5A-4E48B2CE3C14}.Debug|x64.ActiveCfg = Debug|x64
+		{3DC407C3-AC66-4CEF-8E5A-4E48B2CE3C14}.Debug|x64.Build.0 = Debug|x64
+		{3DC407C3-AC66-4CEF-8E5A-4E48B2CE3C14}.Debug|x86.ActiveCfg = Debug|Win32
+		{3DC407C3-AC66-4CEF-8E5A-4E48B2CE3C14}.Debug|x86.Build.0 = Debug|Win32
+		{3DC407C3-AC66-4CEF-8E5A-4E48B2CE3C14}.Release|x64.ActiveCfg = Release|x64
+		{3DC407C3-AC66-4CEF-8E5A-4E48B2CE3C14}.Release|x64.Build.0 = Release|x64
+		{3DC407C3-AC66-4CEF-8E5A-4E48B2CE3C14}.Release|x86.ActiveCfg = Release|Win32
+		{3DC407C3-AC66-4CEF-8E5A-4E48B2CE3C14}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{897D7A64-6AF2-4503-9C3E-31E5B0DCCAAB} = {07450F0E-5752-4867-8262-AAB54C0DD7AF}
+		{D16C8329-57E6-43FD-BFC3-718BA3C8B9A0} = {07450F0E-5752-4867-8262-AAB54C0DD7AF}
+		{3DC407C3-AC66-4CEF-8E5A-4E48B2CE3C14} = {07450F0E-5752-4867-8262-AAB54C0DD7AF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8816D71D-9845-4F59-8A48-009F80ECDF77}
