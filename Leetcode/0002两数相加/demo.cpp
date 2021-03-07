@@ -14,5 +14,8 @@ struct ListNode {
 
 int main()
 {
+    int t;
+    t = 1 / 10;
+    cout << t << endl;
 	return 0;
 }
