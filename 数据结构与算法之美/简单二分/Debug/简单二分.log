@@ -1,0 +1,4 @@
+﻿D:\software\vs2019\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: 中间目录(Debug\)包含从另一个项目(简单二分.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  demo.cpp
+D:\Github\algorithm\数据结构与算法之美\简单二分\demo.cpp(36,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  简单二分.vcxproj -> D:\Github\algorithm\数据结构与算法之美\Debug\01简单二分.exe

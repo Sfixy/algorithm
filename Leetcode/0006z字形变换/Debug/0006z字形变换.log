@@ -1,0 +1,7 @@
+﻿  demo.cpp
+D:\Github\algorithm\Leetcode\0006z字形变换\demo.cpp(14,22): warning C4018: “<”: 有符号/无符号不匹配
+D:\Github\algorithm\Leetcode\0006z字形变换\demo.cpp(21,47): warning C4018: “<”: 有符号/无符号不匹配
+D:\Github\algorithm\Leetcode\0006z字形变换\demo.cpp(21,63): warning C4018: “<”: 有符号/无符号不匹配
+D:\Github\algorithm\Leetcode\0006z字形变换\demo.cpp(23,11): warning C4018: “<”: 有符号/无符号不匹配
+D:\Github\algorithm\Leetcode\0006z字形变换\demo.cpp(24,11): warning C4018: “<”: 有符号/无符号不匹配
+  0006z字形变换.vcxproj -> D:\Github\algorithm\Leetcode\Debug\0006z字形变换.exe

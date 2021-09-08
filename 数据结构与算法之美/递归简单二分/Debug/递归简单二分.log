@@ -1,0 +1,4 @@
+﻿  demo.cpp
+D:\Github\algorithm\数据结构与算法之美\递归简单二分\demo.cpp(34,30): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Github\algorithm\数据结构与算法之美\递归简单二分\demo.cpp(19): warning C4715: “bsearchInternally”: 不是所有的控件路径都返回值
+  递归简单二分.vcxproj -> D:\Github\algorithm\数据结构与算法之美\Debug\02递归简单二分.exe
